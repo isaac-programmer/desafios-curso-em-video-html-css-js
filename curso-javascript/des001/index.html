@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Desafio das Mensagens</title>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <style>
+            .area-botao .botao {
+                margin-right: 10px;
+            }
+            .area-botao .botao:last-child {
+                margin-right: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav style="display: flex; flex-direction: row; justify-content: flex-end;">
+                    <a href="../des002/index.html"  target="_self" rel="next">Próximo Desafio</a>
+                </nav>
+                <h1>Desafio das Mensagens</h1>
+            </header>
+            <section class="area-botao">
+                <input type="button" class="botao" value="Botão 1" onclick="apertarBotao01()">
+                <input type="button" class="botao" value="Botão 2" onclick="apertarBotao02()">
+                <input type="button" class="botao" value="Botão 3" onclick="apertarBotao03()">
+            </section>
+        </main>
+        <script src="../assets/js/mensagens.js"></script>
+    </body>
+</html>
